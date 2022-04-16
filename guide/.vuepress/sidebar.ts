@@ -4,8 +4,8 @@ export default {
 			text: 'Home',
 			children: [
 				'/',
-				'/requesting-more-content.md',
-				'/whats-new.md',
+				'/faq',
+				'/contribute',
 			],
 		}
 	],

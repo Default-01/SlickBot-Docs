@@ -1,3 +1,3 @@
 # Information
 
-guides information
+Guides are coming soon! so stay tuned.
