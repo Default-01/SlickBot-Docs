@@ -1,0 +1,40 @@
+{
+    "name": "slickbot-docs",
+    "description": "The official SlickBot documentation.",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "lint": "eslint . --ext js,md,vue",
+        "dev": "vuepress dev guide",
+        "build": "NODE_ENV=production vuepress build guide"
+    },
+    "repository": "",
+    "keywords": [
+        "discord",
+        "bot",
+        "tutorial",
+        "javascript"
+    ],
+    "author": "Default-01",
+    "contributors": [
+        "Default-01"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/"
+    },
+    "homepage": "http://192.168.2.21:8080/",
+    "devDependencies": {
+        "@vuepress/plugin-docsearch": "^2.0.0-beta.24",
+        "@vuepress/plugin-google-analytics": "^2.0.0-beta.24",
+        "babel-eslint": "^10.0.1",
+        "eslint": "^7.18.0",
+        "eslint-config-sora": "^3.1.0",
+        "eslint-plugin-markdown": "^1.0.0",
+        "eslint-plugin-vue": "^7.5.0",
+        "vuepress-vite": "^2.0.0-beta.24"
+    },
+    "dependencies": {
+        "@discord-message-components/vue": "^0.2.1"
+    }
+}
