@@ -6,7 +6,7 @@
     "scripts": {
         "lint": "eslint . --ext js,md,vue",
         "dev": "vuepress dev guide",
-        "build": "NODE_ENV=production vuepress build guide"
+        "build": "vuepress build guide"
     },
     "repository": "",
     "keywords": [
