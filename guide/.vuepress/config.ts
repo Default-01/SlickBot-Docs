@@ -13,14 +13,14 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 	head: [
 		['meta', { charset: 'utf-8' }],
 		['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
-		['link', { rel: 'icon', href: '/favicon.png' }],
+		['link', { rel: 'icon', href: 'https://i.imgur.com/g11yXkh.png' }],
 		['meta', { name: 'theme-color', content: '#038CB5' }],
 		['meta', { property: 'og:title', content: 'SlickBot Docs' }],
 		['meta', { property: 'og:description', content: 'The official SlickBot documentation.' }],
 		['meta', { property: 'og:type', content: 'website' }],
 		['meta', { property: 'og:url', content: 'http://localhost:8080/' }],
 		['meta', { property: 'og:locale', content: 'en_US' }],
-		['meta', { property: 'og:image', content: '/meta-image.png' }],
+		['meta', { property: 'og:image', content: 'https://i.imgur.com/g11yXkh.png' }],
 	],
 	theme: path.join(__dirname, 'theme', 'index.ts'),
 	themeConfig: {
