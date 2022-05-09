@@ -9,7 +9,7 @@ We first wanna configure the suggestions system with the `/settings` command.
 <DiscordMessages>
  <DiscordMessage profile="bot">
  <template #interactions>
-   <DiscordInteraction profile="user" :command="true">ping</DiscordInteraction>
+   <DiscordInteraction profile="user" :command="true">settings</DiscordInteraction>
   </template>
   <template #embeds>
    <DiscordEmbed
