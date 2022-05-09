@@ -39,6 +39,7 @@ export default {
 			text: 'Guide Categories',
 			children: [
 				'/guides/moderation',
+				'/guides/suggestions'
 			],
 		}
 	],
