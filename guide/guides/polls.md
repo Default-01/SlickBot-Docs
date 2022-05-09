@@ -134,3 +134,8 @@ Members and mods can use the ⚙️ button to display some poll info. (only mods
 - `Votes` Display the votes for the specified option.
 - `End Poll` End the poll.
 - `Delete` Delete the poll.
+
+### Showcase
+Here is a showcase of how the polls system works
+
+<img src="https://i.imgur.com/kV8eUu8.gif" height="500" />

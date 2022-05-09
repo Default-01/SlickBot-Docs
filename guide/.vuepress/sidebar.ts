@@ -40,7 +40,9 @@ export default {
 			children: [
 				'/guides/moderation',
 				'/guides/suggestions',
-				'/guides/polls'
+				'/guides/polls',
+				'/guides/embedder',
+				'/guides/reactionroles'
 			],
 		}
 	],
