@@ -33,6 +33,7 @@ export default defineClientAppEnhance(({ app }) => {
 			bot: {
 				author: 'SlickBot',
 				avatar: 'https://i.imgur.com/q38P21b.png',
+				roleColor: '#038CB5',
 				bot: true,
 			},
 			default: {
