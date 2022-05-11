@@ -2,9 +2,9 @@
 
 Below are all Moderation commands listed:
 
-## Banning
+## /bans
 
-### **/bans add**
+### **add**
 
 > **Usage:** `/bans add <member> (reason) (duration) (delete_msg_history)`
 >
@@ -20,7 +20,7 @@ Below are all Moderation commands listed:
 >
 > `delete_msg_history` Optionally select how many member messages should be deleted.
 
-### **/bans remove**
+### **remove**
 
 > **Usage:** `/bans remove <memberID>`
 >
@@ -30,7 +30,7 @@ Below are all Moderation commands listed:
 >
 > `memberID` The member ID you wanna ban.
 
-### **/bans display**
+### **display**
 
 > **Usage:** `/bans display`
 >
@@ -41,9 +41,9 @@ Below are all Moderation commands listed:
 > `none`
 ---
 
-## Muting
+## /mutes
 
-### **/mutes add**
+### **add**
 
 > **Usage:** `/mutes add <member> <duration> (reason)`
 >
@@ -57,7 +57,7 @@ Below are all Moderation commands listed:
 >
 > `reason` Optionally provide a reason.
 
-### **/mutes remove**
+### **remove**
 
 > **Usage:** `/mutes remove <member>`
 >
@@ -68,9 +68,7 @@ Below are all Moderation commands listed:
 > `member` The member you wanna unmute.
 ---
 
-## Kicking
-
-### **/kick**
+## /kick
 
 > **Usage:** `/kick <member> (reason)`
 >
@@ -83,9 +81,9 @@ Below are all Moderation commands listed:
 > `reason` Optionally provide a reason.
 ---
 
-## Warning
+## /warns
 
-### **/warns add**
+### **add**
 
 > **Usage:** `/warns add <member> (reason) (preset)`
 >
@@ -99,7 +97,7 @@ Below are all Moderation commands listed:
 >
 > `preset` If no reason provided you can choose a preset.
 
-### **/warns remove**
+### **remove**
 
 > **Usage:** `/warns remove <member>`
 >
@@ -109,7 +107,7 @@ Below are all Moderation commands listed:
 >
 > `member` The member you wanna remove a warning from.
 
-### **/warns display**
+### **display**
 
 > **Usage:** `/warns display (member) (moderator)`
 >
@@ -122,9 +120,9 @@ Below are all Moderation commands listed:
 > `moderator` Optionally select a moderator.
 ---
 
-## Locker
+## /locker
 
-### **/locker lock**
+### **lock**
 
 > **Usage:** `/locker lock`
 >
@@ -134,7 +132,7 @@ Below are all Moderation commands listed:
 >
 > `none`
 
-### **/locker unlock**
+### **unlock**
 
 > **Usage:** `/locker unlock`
 >
