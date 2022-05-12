@@ -52,7 +52,7 @@ Wanna know more about the polls system? make sure to look on our guide [HERE](..
 >
 > `content` Optionally provide a embed content.
 >
-> `channel` Optionally provide a embed channel.
+> `channel` Optionally provide a channel to send the announcement in.
 
 ---
 
