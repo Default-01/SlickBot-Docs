@@ -41,7 +41,8 @@ export default {
 				'/guides/suggestions',
 				'/guides/polls',
 				'/guides/embedder',
-				'/guides/reactionroles'
+				'/guides/reactionroles',
+				'/guides/automod'
 			],
 		}
 	],
